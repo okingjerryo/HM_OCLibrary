@@ -1,2 +1,13 @@
-# HM_OCLibrary
-A Objective-C Library for myself,just want to collect my often used model in daily.Maybe such issue on my code qwq
+# DataStructure
+欢迎来到数据结构分支w，这里存放着这边写的一些数据结构的扩展类
+##Graph
+图算法类封装了与图有关的算法【谜之声：废话】
+###HMGraph类
+这个类是基于OC的一个图算法，封装了一些图类的基本操作和一些图论的常用算法
+
+ 采用将Data 与 Relation分别封装的方法
+ 同时引入了对Data下标和Realtion下标分别建立字典索引，增强搜索速度
+ （时间期望在O(1)左右，空间期望在O(n)附近）
+
+ 现在其中实现了对图的建立的相关算法。
+ 
