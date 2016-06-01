@@ -8,6 +8,6 @@
 
 #ifndef HMDataStructure_h
 #define HMDataStructure_h
-#include "HMGraph.h"
-
+#import "HMGraph.h"
+#import "HMQueue.h"
 #endif /* HMDataStructure_h */
