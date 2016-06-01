@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C8B68CA41CFF046300B762A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B68CA31CFF046300B762A5 /* main.m */; };
 		C8B68CAE1CFF04C800B762A5 /* HMGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B68CAC1CFF04C800B762A5 /* HMGraph.m */; };
+		C8B68CB51CFF184100B762A5 /* HMQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B68CB41CFF184100B762A5 /* HMQueue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		C8B68CAB1CFF04C800B762A5 /* HMGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HMGraph.h; path = Graph/HMGraph.h; sourceTree = "<group>"; };
 		C8B68CAC1CFF04C800B762A5 /* HMGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMGraph.m; path = Graph/HMGraph.m; sourceTree = "<group>"; };
 		C8B68CB01CFF050F00B762A5 /* HMDataStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMDataStructure.h; sourceTree = "<group>"; };
+		C8B68CB31CFF182A00B762A5 /* HMQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMQueue.h; path = Queue/HMQueue.h; sourceTree = "<group>"; };
+		C8B68CB41CFF184100B762A5 /* HMQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HMQueue.m; path = Queue/HMQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		C8B68CA21CFF046300B762A5 /* HMDataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				C8B68CB11CFF17CA00B762A5 /* HMQueue */,
 				C8B68CAA1CFF04B100B762A5 /* HMGraph */,
 				C8B68CA31CFF046300B762A5 /* main.m */,
 				C8B68CB01CFF050F00B762A5 /* HMDataStructure.h */,
@@ -75,6 +79,15 @@
 				C8B68CAC1CFF04C800B762A5 /* HMGraph.m */,
 			);
 			name = HMGraph;
+			sourceTree = "<group>";
+		};
+		C8B68CB11CFF17CA00B762A5 /* HMQueue */ = {
+			isa = PBXGroup;
+			children = (
+				C8B68CB31CFF182A00B762A5 /* HMQueue.h */,
+				C8B68CB41CFF184100B762A5 /* HMQueue.m */,
+			);
+			name = HMQueue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B68CB51CFF184100B762A5 /* HMQueue.m in Sources */,
 				C8B68CA41CFF046300B762A5 /* main.m in Sources */,
 				C8B68CAE1CFF04C800B762A5 /* HMGraph.m in Sources */,
 			);
@@ -253,6 +267,7 @@
 				C8B68CA91CFF046300B762A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

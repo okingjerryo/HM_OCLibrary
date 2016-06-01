@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "HMDataStructure.h"//定义实现分离
+@interface <#class name#> : NSMutableArray
 
+@end
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //注意 使用时请手动设置path
